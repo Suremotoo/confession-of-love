@@ -1,0 +1,174 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: #ffe;
+    font-size: 12px;
+    font-family: 'Microsoft YaHei';
+    overflow: auto;
+}
+
+#mainDiv {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+#loveHeart {
+    float: left;
+    width: 670px;
+    height: 625px;
+}
+
+#garden {
+    width: 100%;
+    height: 100%;
+}
+
+#elapseClock {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#words {
+    font-family: "sans-serif";
+    width: 500px;
+    font-size: 24px;
+    color: #666;
+}
+
+#messages {
+    display: none;
+}
+
+#elapseClock .togetherTime {
+    font-family: "digit";
+    font-size: 36px;
+}
+
+#loveu {
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-right: 120px;
+    text-align: right;
+    display: none;
+    color: #c03;
+    font-weight: bolder;
+    font-family: "华文行楷";
+}
+
+#loveu .signature {
+    margin-top: 10px;
+    margin-right: 24px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#loveu #recipient {
+    position: relative;
+    top: -40px;
+    left: -80px;
+}
+
+#code {
+    float: left;
+    width: 440px;
+    height: 400px;
+    color: #333;
+    font-family: "Courier New", "Consolas", "Monaco", "Bitstream Vera Sans Mono", "sans-serif";
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#code .keyword {
+    color: #7f0055;
+    font-weight: bold;
+}
+
+#code .keyword2 {
+    color: red;
+    font-weight: bold;
+}
+
+#code .placeholder {
+    margin-left: 15px;
+}
+
+#code .space {
+    margin-left: 7px;
+}
+
+#code .comments {
+    color: #3f7f5f;
+}
+
+#errorMsg {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    transition: all 2.5s;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 60px 5px;
+    border-top-right-radius: 60px 5px;
+    border-bottom-right-radius: 60px 60px ;
+}
+
+.show1,
+.show3,
+.show5 {
+    opacity: 1;
+    transform: translate(0, -80px) rotateX(360deg);
+}
+
+.show2,
+.show4,
+.show6 {
+    opacity: 1;
+    transform: translate(0, -80px) rotateY(360deg);
+}
+
+#lover1 {
+    top: 20%;
+    left: 35%;
+}
+
+#lover2 {
+    top: 30%;
+    left: 43%;
+}
+
+#lover3 {
+    height: 140px;
+    top: 40%;
+    left: 51%;
+}
+
+#lover4 {
+    top: 50%;
+    left: 59%;
+}
+
+#lover5 {
+    top: 60%;
+    left: 67%;
+}
+
+#lover6 {
+    top: 70%;
+    left: 75%;
+}
+
